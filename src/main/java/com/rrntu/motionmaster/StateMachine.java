@@ -507,7 +507,7 @@ public class StateMachine extends Thread {
     
     private HashMap searchPorts(){
         
-        System.out.println("Following COM ports are found..");
+        System.out.println("Following COM ports are detected..");
         portMap = comMgr.searchPorts();
         return portMap;
     }
