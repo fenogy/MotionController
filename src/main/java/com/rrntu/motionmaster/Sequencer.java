@@ -318,7 +318,7 @@ public class Sequencer extends Thread {
     
     private HashMap searchPorts(){
         
-        System.out.println("Following COM ports are detected..");
+        System.out.println("Following COM ports are found..");
         portMap = comMgr.searchPorts();
         return portMap;
     }
